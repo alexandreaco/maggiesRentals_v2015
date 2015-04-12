@@ -18,7 +18,7 @@
 		$url = wp_get_attachment_url( $image_id );
 
 		// Print Apartment
-		echo "<article class='apartment col-xs-12 col-sm-6 col-md-4'>";
+		echo "<article class='apartment col-xs-12 col-sm-6 col-md-'>";
 			echo "<img src='" . $url . "' alt='" . $title . " " . $floor . "'>";
 			echo $title . " " . $floor;
 			the_field('nomads_bedrooms');
