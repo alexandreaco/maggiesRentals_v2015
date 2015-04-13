@@ -40,4 +40,60 @@ footer {
 	background: $color-yellow;
 	margin-top: 30px;
 	padding: 100px 0;
+
+	.contact-form {
+		p {
+			font-size: 24px;
+			font-weight: 300;
+			line-height: 32px;
+		}
+		input, 
+		textarea,
+		select {
+			background: transparent;
+			border: 0px none;
+			border-bottom: 2px solid #FFF;
+			padding: 5px 15px;
+			margin: 15px 0;
+		}
+		input {
+			width: 100%;
+			@media screen and (min-width: $screen-md) {
+				max-width: 350px;
+			}
+			
+		}
+		textarea {
+			width: 100%;
+			background: rgba(255,255,255,0.333);
+		}
+		select {
+			width: 100%;
+			position: relative;
+			z-index: 1;		/*	appear above carat */
+			-webkit-appearance:none;
+		       -moz-appearance:none;
+		            appearance:none;
+	        @media screen and (min-width: $screen-md) {
+				max-width: 352px;
+			}
+			@media screen and (min-width: $screen-lg) {
+				max-width: 303px;
+			}
+		    &:after {
+		    	content: "x";
+		    	display: block;
+		    }
+		}
+		.fa-caret-down {
+			margin-left: -15px;
+			color: #FFF;
+		}
+		input[type="submit"] {
+			background: #FFF;
+		}
+		.ajax-loader {
+			display: none;
+		}
+	}
 }
