@@ -10,7 +10,8 @@ $(document).ready(function() {
 
 	$container.isotope({ 
 		itemSelector: '.apartment',
-		layoutmode: 'fitRows'
+		layoutmode: 'fitRows',
+		transitionDuration: '0.33s'
 	});
 
 });

@@ -1,0 +1,43 @@
+// Catchall
+
+
+/** Header */
+.header-wrapper {
+	box-shadow: 0px 0px 2px #EBEBEB;
+}
+.secondary-nav-wrapper {
+	box-shadow: 0px 0px 2px #EBEBEB;
+	text-align: right;
+	ul {
+		margin: 0;
+		padding: 7px 0;
+		li {
+			list-style: none;
+			display: inline;
+			margin-right: 15px;
+			&:last-of-type {
+				margin-right: 0;
+			}
+			a {
+				color: $color-red;
+				&:hover {
+					color: $color-red - #333;
+				}
+			}
+		}
+	}
+}
+
+/** Content Area */
+.main-content {
+  padding: 200px 0;
+  background: $color-blue;
+}
+
+/** Contact Form */
+
+footer {
+	background: $color-yellow;
+	margin-top: 30px;
+	padding: 100px 0;
+}

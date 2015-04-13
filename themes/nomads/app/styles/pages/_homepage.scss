@@ -1,0 +1,33 @@
+// Homepage
+
+.apartment-controls {
+	margin-top: -150px;
+	text-align: center;
+	color: #FFF;
+
+	.dropdown-menu {
+		color: $color-blue;
+	}
+}
+#apartments {
+
+	.apartment {
+		margin-bottom: 30px; 
+
+		.apartment-inner {
+			border-radius: 3px;
+			border: 1px solid #EBEBEB;
+			background-color: #FFFFFF;
+			box-shadow: 1px 1px 3px #BEBEBE;
+
+			img { 
+				width: 100%;
+				height: auto;
+			}
+			.apartment-content {
+				padding: 5px 15px;
+			}
+		}
+	}
+}
+	

@@ -17,7 +17,7 @@
 	<!-- jQuery -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	
-	
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
 	
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
@@ -27,16 +27,15 @@
 
 <body>
 
-	<header class="app-bar promote-layer">
-      <div class="app-bar-container">
-        <button class="menu"><img src="<?php echo get_template_directory_uri() ?>/app/images/hamburger.svg" alt="Menu"></button>
-      </div>
-    </header>
-
-
-	<div class="container-fluid menu-wrapper"> 
-		<?php wp_nav_menu(array( 'theme_location' => 'primary', 'container' => 'nav', 'container_class' => 'main-nav', 'menu_class' => '', 'fallback_cb' => 'wp_page_menu' )); ?>
-	</div>
+	<header class="header-wrapper">
+		<div class="secondary-nav-wrapper">
+			<?php wp_nav_menu(array( 'theme_location' => 'secondary', 'container' => 'nav', 'container_class' => 'container', 'menu_class' => '', 'fallback_cb' => '' )); ?>
+		</div>
+		<div class="container primary-nav-wrapper"> 
+			<h1 class="title pull-left"> Maggie's Rentals </h1>
+			<?php wp_nav_menu(array( 'theme_location' => 'primary', 'container' => 'nav', 'container_class' => 'main-nav pull-right', 'menu_class' => '', 'fallback_cb' => 'wp_page_menu' )); ?>
+		</div>
+	</header>
 	<div class="wrapper main-content">	
 		<div class="container">
 

@@ -108,10 +108,9 @@
 		wp_enqueue_script( 'nomads_script_bootstrap', get_template_directory_uri() . '/app/scripts/script.js', array(), '1.0.0', true );	
 		wp_enqueue_script( 'nomads_script', get_template_directory_uri() . '/app/scripts/script.js', array(), '1.0.0', true );	
 
-		wp_enqueue_style( 'nomads_style_components', get_template_directory_uri() . '/dist/styles/components.css' );	
+		//wp_enqueue_style( 'nomads_style_components', get_template_directory_uri() . '/dist/styles/components.css' );	
 		wp_enqueue_style( 'nomads_style_bootstrap', get_template_directory_uri() . '/dist/styles/bootstrap.css' );	
 		wp_enqueue_style( 'nomads_style_main', get_template_directory_uri() . '/dist/styles/main.css' );	
-		wp_enqueue_style( 'nomads_style', get_template_directory_uri() . '/style.css' );	
 	}
 	add_action( 'wp_enqueue_scripts', 'nomads_theme' );
 
