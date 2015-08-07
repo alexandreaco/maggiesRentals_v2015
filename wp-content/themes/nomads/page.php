@@ -8,9 +8,8 @@
 	$loop = new WP_Query( $args );
 
 ?>
-
-
-<?php get_template_part('blocks/apt-slider'); ?>
+page
+<?php  get_template_part('blocks/apt-slider');  ?>
 
 
 <?php

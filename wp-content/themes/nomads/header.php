@@ -24,18 +24,46 @@
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
+	<!-- Flickity -->
+	<link rel="stylesheet" href="/path/to/flickity.css" media="screen">
+	<script src="/path/to/flickity.pkgd.min.js"></script>
+
+	
 	<?php wp_head(); ?>
 </head>
 
 <body>
 
 	<header class="header-wrapper">
-		<div class="secondary-nav-wrapper">
-			<?php wp_nav_menu(array( 'theme_location' => 'secondary', 'container' => 'nav', 'container_class' => 'container', 'menu_class' => '', 'fallback_cb' => '' )); ?>
+		<div class="social-header">
+			<div class="container">
+				<ul>
+					<li><i class="fa fa-twitter"></i></li>
+					<li><i class="fa fa-facebook"></i></li>
+				</ul>
+			</div>
 		</div>
-		<div class="container primary-nav-wrapper">
-			<h1 class="title pull-left"> Maggie's Rentals </h1>
-			<?php wp_nav_menu(array( 'theme_location' => 'primary', 'container' => 'nav', 'container_class' => 'main-nav pull-right', 'menu_class' => '', 'fallback_cb' => 'wp_page_menu' )); ?>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<h1 class="site-title"> <a href="<?php bloginfo('url') ?>"><?php bloginfo('name')?> </a></h1>
+				</div>
+
+
+					<?php
+            wp_nav_menu( array(
+                'menu'              => 'primary_menu',
+                'theme_location'    => 'primary_menu',
+                'depth'             => 2,
+                'container'         => 'div',
+                'container_class'   => 'collapse navbar-collapse',
+        				'container_id'      => 'nomads-navbar-collapse-1',
+                'menu_class'        => 'nav navbar-nav',
+                'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
+                'walker'            => new wp_bootstrap_navwalker())
+            );
+        ?>
+			</div>
 		</div>
 	</header>
 	<div class="wrapper main-content">

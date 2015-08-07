@@ -9,8 +9,7 @@
 
 ?>
 
-
-<?php get_template_part('blocks/apt-slider'); ?>
+<?php get_template_part('blocks/homegrid'); ?>
 
 
 <?php
