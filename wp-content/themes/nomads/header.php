@@ -24,11 +24,9 @@
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
-	<!-- Flickity -->
-	<link rel="stylesheet" href="/path/to/flickity.css" media="screen">
-	<script src="/path/to/flickity.pkgd.min.js"></script>
 
-	
+
+
 	<?php wp_head(); ?>
 </head>
 
