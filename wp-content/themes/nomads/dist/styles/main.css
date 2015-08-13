@@ -9932,9 +9932,12 @@ footer {
   color: #BBB;
 }
 
-.homegrid .apartment {
+.home-grid .grid-item .apartment {
   height: 150px;
   width: 100%;
   background: #F0F0F0;
   margin: 15px 0;
+}
+.home-grid .grid-item .apartment img {
+  width: 100%;
 }
