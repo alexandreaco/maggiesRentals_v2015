@@ -20,6 +20,7 @@
 	<!-- Fonts -->
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 	<link href='http://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="http://fast.fonts.net/jsapi/3918724f-1fd0-44f7-a05a-6dd85ec8c8d3.js"></script>
 
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
@@ -42,7 +43,7 @@
 			</div>
 		</div>
 		<div class="container">
-			<div class="row">
+			<div class="row header">
 				<div class="col-xs-12">
 					<h1 class="site-title"> <a href="<?php bloginfo('url') ?>"><?php bloginfo('name')?> </a></h1>
 				</div>
@@ -65,4 +66,3 @@
 		</div>
 	</header>
 	<div class="wrapper main-content">
-		<div class="container">

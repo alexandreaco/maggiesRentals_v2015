@@ -1,5 +1,6 @@
 
 <section>
+	<div class="container">
 
   <div class="btn-group filter-controls" role="group" aria-label="hello">
     <button type="button" class="btn btn-default" data-filter="*">Reset</button>
@@ -71,4 +72,5 @@
       </div>
 
     </div>
+  </div>
 </section>

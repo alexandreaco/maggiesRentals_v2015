@@ -1,14 +1,18 @@
 // Header
-.social-header
-  background: $gray
-  text-align: right
 
-  ul
-    padding: 0
-    margin: 0
-    li
-      list-style: none
-      display: inline
-      margin: 0 5px
-      i
-        color: $dark-gray
+.header
+  margin: 60px auto 45px auto
+
+  // No background on nav hover
+  .nav > li
+
+    border-bottom: 2px solid $beige
+
+    &.active
+      border-bottom: 2px solid $green
+
+    &:hover
+      border-bottom: 2px solid $gold
+
+    & > a:hover
+      background-color: transparent

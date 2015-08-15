@@ -1,8 +1,12 @@
-<section>
-<div class="main-gallery">
-  <div class="gallery-cell"><img src="https://placeholdit.imgix.net/~text?txtsize=84&txt=900%C3%97600&w=900&h=500"></div>
-  <div class="gallery-cell"><img src="https://placeholdit.imgix.net/~text?txtsize=84&txt=900%C3%97600&w=900&h=500"></div>
-  <div class="gallery-cell"><img src="https://placeholdit.imgix.net/~text?txtsize=84&txt=900%C3%97600&w=900&h=500"></div>
-
-</div>
+<section class="apartment-slider">
+	<div class="container-fluid">
+    <div class="slider-title">
+      <h2>28 Doyle Avenue</h2>
+    </div>
+    <div class="main-gallery">
+      <div class="gallery-cell"><img src="http://localhost/~Alex/maggiesRentals_v2015/wp-content/uploads/2015/08/homepage.jpg"></div>
+      <div class="gallery-cell"><img src="http://localhost/~Alex/maggiesRentals_v2015/wp-content/uploads/2015/08/28_3.jpg"></div>
+      <div class="gallery-cell"><img src="http://localhost/~Alex/maggiesRentals_v2015/wp-content/uploads/2015/08/28_1.jpg"></div>
+    </div>
+  </div>
 </section>

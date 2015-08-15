@@ -9,6 +9,8 @@
 
 ?>
 
+<?php get_template_part('blocks/colors'); ?>
+
 <?php get_template_part('blocks/homegrid'); ?>
 
 

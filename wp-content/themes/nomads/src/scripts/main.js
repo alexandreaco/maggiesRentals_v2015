@@ -9,7 +9,8 @@
       wrapAround: true,
       cellAlign: 'left',
       contain: true,
-      imagesLoaded: true
+      imagesLoaded: true,
+      setGallerySize: false
     })
 
     // Isotope
